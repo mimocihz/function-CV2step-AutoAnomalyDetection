@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "PYTHON_ENABLE_WORKER_EXTENSIONS": "1",
+    "CV_URL": "{Custom Visionの検知モデルのURL}",
+    "CV_URL_CLS": "{Custom Visionの分類モデルのURL}",
+    "CV_API_KEY": "{Custom VisionのAPI KEY}",
+    "ACCOUNT_NAME": "{Blob Storageの名前}",
+    "ACCOUNT_KEY": "{Blob Storageのアカウントキー}",
+    "CONTAINER_NAME_INPUT": "input",
+    "CONTAINER_NAME_RESULTS": "results",
+    "CONTAINER_NAME_CROP": "crop"
+  }
+}
